@@ -16,7 +16,7 @@ public class Randoms implements Iterable<Integer> {
         return new Iterator<Integer>() {
             @Override
             public boolean hasNext() {
-                if (max < min || min == 0 && max == 0 ) return false;
+                //if (max < min || min == 0 && max == 0 ) return false;
                 return true;
             }
 
